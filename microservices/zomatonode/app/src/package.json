@@ -1,5 +1,5 @@
 {
-  "name": "HPDF- Zomato - Nodejs",
+  "name": "HPDF-Zomato-Nodejs",
   "version": "1.0.0",
   "description": "Backend API server for HPDF",
   "scripts": {
