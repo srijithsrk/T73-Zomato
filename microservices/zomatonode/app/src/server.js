@@ -39,7 +39,7 @@ app.get('/input',function (req, res) {
 app.post('/login', function (req, res) {
     var username = req.body.textBox;
     var password = req.body.passBox;
-    res.send(username + password);
+    res.send(username + " " + password);
     /* request({
         method: 'POST',
         url: 'auth.bodybuilder89.hasura-app.io/v1/login',
