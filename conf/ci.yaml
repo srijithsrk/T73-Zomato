@@ -24,3 +24,9 @@ remotes:
         dockerfile: microservices/zomatonode/Dockerfile
         path: microservices/zomatonode
 
+
+    '{{ cluster.metadata.namespaces.user }}.zomato':
+      zomato:
+        dockerfile: microservices/zomato/Dockerfile
+        path: microservices/zomato
+

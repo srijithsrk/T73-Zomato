@@ -172,3 +172,14 @@ zomatonode:
     upstreamServicePort: 80
 
 
+
+zomato:
+  /:
+    corsPolicy: allow_all
+    upstreamService:
+      name: zomato
+      namespace: '{{ cluster.metadata.namespaces.user }}'
+    upstreamServicePath: /
+    upstreamServicePort: 80
+
+

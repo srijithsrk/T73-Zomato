@@ -4,6 +4,7 @@ WORKDIR /src
 
 # Add package.json
 ADD app/src/package.json /src/package.json
+ADD app/src/package-lock.json /src/package-lock.json
 
 #install node modules
 RUN npm install
